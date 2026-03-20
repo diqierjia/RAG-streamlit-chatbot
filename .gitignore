@@ -1,0 +1,11 @@
+# 忽略环境变量配置文件
+.env
+
+# 忽略 Python 缓存和虚拟环境
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# 忽略本地持久化的向量数据库（体积可能很大，没必要上传）
+data_base/vector_db/chroma/
