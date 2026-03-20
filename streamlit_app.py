@@ -9,7 +9,7 @@ import sys
 from langchain_openai import OpenAIEmbeddings,ChatOpenAI
 from langchain_community.vectorstores import Chroma
 
-#------------------------检索器构建-------------------------
+#------------------------检索器构建----------------------
 def get_retriever():
     
     embedding = OpenAIEmbeddings(model="text-embedding-3-small", base_url="https://jeniya.top/v1")
