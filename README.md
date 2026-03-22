@@ -53,5 +53,4 @@ streamlit run streamlit_app.py
 
 ---
 
-你可以在本地保存这个文件后，在 VS Code 里按 `Ctrl + Shift + V` 预览一下排版效果。确认无误后，再次执行 `git add .`、`git commit -m "修复 README 排版错误"` 和 `git push`。
 
