@@ -14,7 +14,7 @@
 
 **1. 克隆项目到本地**
 ```bash
-git clone [https://github.com/diqierjia/RAG-streamlit-chatbot.git](https://github.com/diqierjia/RAG-streamlit-chatbot.git)
+git clone https://github.com/diqierjia/RAG-streamlit-chatbot.git
 cd RAG-streamlit-chatbot
 ```
 **2. 创建并激活独立的虚拟环境**
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 **⚠️ 注意：出于安全考虑，本项目的 API 密钥并未硬编码在代码中，也没有上传到云端。**
 你需要在项目根目录下手动新建一个名为 .env 的文件，并在其中写入你的 OpenAI API 配置信息：
-```代码块
+```bash
 OPENAI_API_KEY="sk-你的真实密钥请填在这里"
 # 如果你使用的是代理地址，也可在此配置
 ```
@@ -48,8 +48,8 @@ OPENAI_API_KEY="sk-你的真实密钥请填在这里"
 
 ```Bash
 streamlit run streamlit_app.py
-运行后，程序会自动在你的默认浏览器中弹出一个 Web 交互界面。
 ```
+运行后，程序会自动在你的默认浏览器中弹出一个 Web 交互界面。
 
 ---
 
