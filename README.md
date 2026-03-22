@@ -16,7 +16,8 @@
 ```bash
 git clone [https://github.com/diqierjia/RAG-streamlit-chatbot.git](https://github.com/diqierjia/RAG-streamlit-chatbot.git)
 cd RAG-streamlit-chatbot
-2. 创建并激活独立的虚拟环境
+```
+**2. 创建并激活独立的虚拟环境**
 
 Bash
 python -m venv .venv
@@ -24,7 +25,8 @@ python -m venv .venv
 .\.venv\Scripts\activate
 # macOS/Linux 激活命令：
 # source .venv/bin/activate
-3. 安装依赖
+
+**3. 安装依赖**
 
 Bash
 pip install -r requirements.txt
@@ -35,10 +37,19 @@ pip install -r requirements.txt
 
 代码段
 OPENAI_API_KEY="sk-你的真实密钥请填在这里"
+
 # 如果你使用的是代理地址，也可在此配置
-🚀 启动与运行
+
+### 🚀 启动与运行
 确保虚拟环境已激活，且向量数据库文件夹 data_base 路径完整，在终端运行以下命令启动服务：
 
 Bash
 streamlit run streamlit_app.py
 运行后，程序会自动在你的默认浏览器中弹出一个 Web 交互界面。
+
+
+---
+
+你可以在本地保存这个文件后，在 VS Code 里按 `Ctrl + Shift + V` 预览一下排版效果。确认无误后，再次执行 `git add .`、`git commit -m "修复 README 排版错误"` 和 `git push`。
+
+等你推送到云端后，去 GitHub 上看看排版是不是已经变得清晰整洁了？如果之前的依赖安装卡死问题还没解决，我们可以接着排查。
